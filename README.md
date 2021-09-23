@@ -18,16 +18,15 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
    - [X] (1pt) In landscape mode, the rotated alternate layout should use the backdrop image instead and show the title and movie overview to the right of it.
 
 - [X] (2pts) Display a nice default [placeholder graphic](https://guides.codepath.org/android/Displaying-Images-with-the-Glide-Library#advanced-usage) for each image during loading
-- [ ] (2pts) Improved the user interface by experimenting with styling and coloring.
+- [X] (2pts) Improved the user interface by experimenting with styling and coloring.
 - [ ] (2pts) For popular movies (i.e. a movie voted for more than 5 stars), the full backdrop image is displayed. Otherwise, a poster image, the movie title, and overview is listed. Use Heterogenous RecyclerViews and use different ViewHolder layout files for popular movies and less popular ones.
 
 ### App Walkthough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
-
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="walkthrough-part1.gif" width=250><br>
+<img src="walkthrough2-part1.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+It is very difficult to show the loading placeholder image in the gif because even after slowing down the network on the emulator, a blank screen appears until everything is loaded. There is however a quick flash of my loading placeholder image before all images are actually loaded which shows me that it works.
 
 ### Open-source libraries used
 
